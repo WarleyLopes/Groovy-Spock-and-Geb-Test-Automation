@@ -12,8 +12,8 @@ import geb.spock.GebSpec
 import geb.spock.GebReportingSpec
 
 //After running the script for the first time with GroovyConsole remove the two below lines
-System.setProperty('webdriver.chrome.driver','../../webdrivers/win32/chromedriver.exe')
-System.setProperty('geb.build.reportsDir','../../reports')
+System.setProperty('webdriver.chrome.driver','/webdrivers/win32/chromedriver.exe')
+System.setProperty('geb.build.reportsDir','/reports')
 
 class simpleNavigationSpec extends GebReportingSpec {
     def setup() {}        // runs before every feature method
