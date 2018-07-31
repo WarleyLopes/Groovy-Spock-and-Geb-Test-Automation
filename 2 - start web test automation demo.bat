@@ -1,0 +1,1 @@
+groovyconsole WebTestAutomationDemo.groovy
